@@ -1,0 +1,2573 @@
+{
+  "generated_at": "2026-05-12T23:44:04.376804",
+  "meta": {
+    "total_events": 244,
+    "total_users": 11,
+    "total_sessions": 30,
+    "time_range": {
+      "start": "2025-02-06 09:00:04",
+      "end": "2025-02-06 11:25:39"
+    },
+    "missing_timestamps": 1
+  },
+  "funnel": {
+    "steps": [
+      {
+        "step": "homepage",
+        "sessions": 24,
+        "pct_of_total": 80.0,
+        "dropoff_from_prev": 20.0
+      },
+      {
+        "step": "products",
+        "sessions": 23,
+        "pct_of_total": 76.7,
+        "dropoff_from_prev": 4.2
+      },
+      {
+        "step": "cart",
+        "sessions": 22,
+        "pct_of_total": 73.3,
+        "dropoff_from_prev": 4.3
+      },
+      {
+        "step": "checkout",
+        "sessions": 18,
+        "pct_of_total": 60.0,
+        "dropoff_from_prev": 18.2
+      },
+      {
+        "step": "order_placed",
+        "sessions": 11,
+        "pct_of_total": 36.7,
+        "dropoff_from_prev": 38.9
+      }
+    ],
+    "checkout_outcomes": {
+      "completed": 12,
+      "cancelled": 8,
+      "retried_then_dropped": 1
+    },
+    "checkout_conversion_rate": 61.1
+  },
+  "journeys": {
+    "most_common": [
+      {
+        "path": [
+          "/",
+          "/products",
+          "/products/*",
+          "/cart",
+          "/checkout"
+        ],
+        "count": 5,
+        "pct": 16.7
+      },
+      {
+        "path": [
+          "/blog",
+          "/",
+          "/products",
+          "/products/*",
+          "/cart",
+          "/checkout"
+        ],
+        "count": 3,
+        "pct": 10.0
+      },
+      {
+        "path": [
+          "/checkout",
+          "/",
+          "/products",
+          "/products/*",
+          "/cart",
+          "/checkout"
+        ],
+        "count": 2,
+        "pct": 6.7
+      },
+      {
+        "path": [
+          "/settings",
+          "/",
+          "/products",
+          "/products/*",
+          "/cart",
+          "/checkout"
+        ],
+        "count": 2,
+        "pct": 6.7
+      },
+      {
+        "path": [
+          "/settings",
+          "/promo",
+          "/",
+          "/products",
+          "/products/*",
+          "/cart",
+          "/checkout"
+        ],
+        "count": 1,
+        "pct": 3.3
+      }
+    ],
+    "all": [
+      {
+        "session_id": "e4d1a10c-1234-4a5b-9d6e-123456789abc",
+        "user_id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+        "start_time": "2025-02-06 09:00:04",
+        "end_time": "2025-02-06 09:01:04",
+        "event_count": 13,
+        "pages": [
+          "/settings",
+          "/promo",
+          "/",
+          "/products",
+          "/products/laptop-pro",
+          "/cart",
+          "/checkout"
+        ],
+        "has_error": true,
+        "completed_order": true,
+        "events": [
+          {
+            "time": "2025-02-06 09:00:04",
+            "path": "/settings",
+            "css": ".settings-header",
+            "text": "Settings",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:00:08",
+            "path": "/settings",
+            "css": "select.language",
+            "text": "Language",
+            "value": "French"
+          },
+          {
+            "time": "2025-02-06 09:00:12",
+            "path": "/promo",
+            "css": ".promo-banner",
+            "text": "Summer Sale",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:00:17",
+            "path": "/",
+            "css": ".nav-logo",
+            "text": "Logo",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:00:24",
+            "path": "/",
+            "css": "#search-bar",
+            "text": "Search",
+            "value": "laptop"
+          },
+          {
+            "time": "2025-02-06 09:00:27",
+            "path": "/products",
+            "css": ".product-card",
+            "text": "Laptop Pro",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:00:32",
+            "path": "/products/laptop-pro",
+            "css": "textarea.comment",
+            "text": "Comment",
+            "value": "Looks great!"
+          },
+          {
+            "time": "2025-02-06 09:00:39",
+            "path": "/products/laptop-pro",
+            "css": "button.submit",
+            "text": "Submit",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:00:43",
+            "path": "/products/laptop-pro",
+            "css": "button.add-to-cart",
+            "text": "Add to Cart",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:00:49",
+            "path": "/cart",
+            "css": "button.checkout",
+            "text": "Proceed to Checkout",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:00:52",
+            "path": "/checkout",
+            "css": "div.error-message",
+            "text": "Payment gateway timeout",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:00:57",
+            "path": "/checkout",
+            "css": "button.retry",
+            "text": "Retry",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:01:04",
+            "path": "/checkout",
+            "css": "button.place-order",
+            "text": "Place Order",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "session_id": "a1234567-89ab-cdef-0123-456789abcdef",
+        "user_id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+        "start_time": "2025-02-06 09:05:04",
+        "end_time": "2025-02-06 09:05:48",
+        "event_count": 10,
+        "pages": [
+          "/blog",
+          "/help",
+          "/",
+          "/products",
+          "/products/smartphone-x",
+          "/cart",
+          "/checkout"
+        ],
+        "has_error": false,
+        "completed_order": false,
+        "events": [
+          {
+            "time": "2025-02-06 09:05:04",
+            "path": "/blog",
+            "css": ".blog-post",
+            "text": "Tech News",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:05:08",
+            "path": "/blog",
+            "css": "textarea.comment",
+            "text": "Comment",
+            "value": "Great article!"
+          },
+          {
+            "time": "2025-02-06 09:05:13",
+            "path": "/blog",
+            "css": "button.submit",
+            "text": "Submit",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:05:19",
+            "path": "/help",
+            "css": "button.help",
+            "text": "Need Help",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:05:22",
+            "path": "/",
+            "css": ".nav-logo",
+            "text": "Logo",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:05:27",
+            "path": "/",
+            "css": "#search-bar",
+            "text": "Search",
+            "value": "smartphone"
+          },
+          {
+            "time": "2025-02-06 09:05:31",
+            "path": "/products",
+            "css": ".product-card",
+            "text": "Smartphone X",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:05:39",
+            "path": "/products/smartphone-x",
+            "css": "button.add-to-cart",
+            "text": "Add to Cart",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:05:41",
+            "path": "/cart",
+            "css": "button.checkout",
+            "text": "Proceed to Checkout",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:05:48",
+            "path": "/checkout",
+            "css": "button.cancel-order",
+            "text": "Cancel Order",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "session_id": "0f1e2d3c-4b5a-6978-8f7e-6d5c4b3a2910",
+        "user_id": "3c7a9e10-2b4c-4d3f-9f2b-abcdefabcdef",
+        "start_time": "2025-02-06 09:10:03",
+        "end_time": "2025-02-06 09:10:51",
+        "event_count": 11,
+        "pages": [
+          "/checkout",
+          "/",
+          "/products",
+          "/products/wireless-headphones",
+          "/cart",
+          "/checkout"
+        ],
+        "has_error": true,
+        "completed_order": true,
+        "events": [
+          {
+            "time": "2025-02-06 09:10:03",
+            "path": "/checkout",
+            "css": "#shipping-address",
+            "text": "Address",
+            "value": "123 Fake St"
+          },
+          {
+            "time": "2025-02-06 09:10:08",
+            "path": "/checkout",
+            "css": "div.error-message",
+            "text": "No items in cart",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:10:12",
+            "path": "/checkout",
+            "css": "button.help",
+            "text": "Need Help",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:10:17",
+            "path": "/",
+            "css": ".nav-logo",
+            "text": "Logo",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:10:21",
+            "path": "/",
+            "css": "#search-bar",
+            "text": "Search",
+            "value": "headphones"
+          },
+          {
+            "time": "2025-02-06 09:10:27",
+            "path": "/products",
+            "css": ".product-card",
+            "text": "Wireless Headphones",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:10:32",
+            "path": "/products/wireless-headphones",
+            "css": "textarea.comment",
+            "text": "Comment",
+            "value": "Love the sound!"
+          },
+          {
+            "time": "2025-02-06 09:10:37",
+            "path": "/products/wireless-headphones",
+            "css": "button.add-to-cart",
+            "text": "Add to Cart",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:10:44",
+            "path": "/cart",
+            "css": "button.checkout",
+            "text": "Proceed to Checkout",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:10:46",
+            "path": "/checkout",
+            "css": "div.spinner",
+            "text": "Loading...",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:10:51",
+            "path": "/checkout",
+            "css": "button.place-order",
+            "text": "Place Order",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "session_id": "11223344-5566-7788-99aa-bbccddeeff00",
+        "user_id": "d4e5f6a7-b8c9-0d1e-2f3a-456789abcdef",
+        "start_time": "2025-02-06 09:15:01",
+        "end_time": "2025-02-06 09:15:42",
+        "event_count": 9,
+        "pages": [
+          "/faq",
+          "/promo",
+          "/",
+          "/products",
+          "/products/tablet-z",
+          "/account"
+        ],
+        "has_error": true,
+        "completed_order": false,
+        "events": [
+          {
+            "time": "2025-02-06 09:15:01",
+            "path": "/faq",
+            "css": ".faq-header",
+            "text": "FAQ",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:15:06",
+            "path": "/faq",
+            "css": "a.question",
+            "text": "How to track order?",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:15:11",
+            "path": "/faq",
+            "css": "div.error-message",
+            "text": "No answer available",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:15:17",
+            "path": "/promo",
+            "css": "button.subscribe",
+            "text": "Subscribe",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:15:23",
+            "path": "/",
+            "css": ".nav-logo",
+            "text": "Logo",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:15:29",
+            "path": "/",
+            "css": "#search-bar",
+            "text": "Search",
+            "value": "tablet"
+          },
+          {
+            "time": "2025-02-06 09:15:31",
+            "path": "/products",
+            "css": ".product-card",
+            "text": "Tablet Z",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:15:38",
+            "path": "/products/tablet-z",
+            "css": "textarea.comment",
+            "text": "Comment",
+            "value": "Looks promising"
+          },
+          {
+            "time": "2025-02-06 09:15:42",
+            "path": "/account",
+            "css": "button.logout",
+            "text": "Logout",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "session_id": "abcdef12-3456-7890-abcd-ef1234567890",
+        "user_id": "fedcba98-7654-3210-1234-56789abcdef0",
+        "start_time": "2025-02-06 09:20:02",
+        "end_time": "2025-02-06 09:20:59",
+        "event_count": 12,
+        "pages": [
+          "/promo",
+          "/settings",
+          "/",
+          "/products",
+          "/products/dslr-camera",
+          "/cart",
+          "/checkout"
+        ],
+        "has_error": false,
+        "completed_order": false,
+        "events": [
+          {
+            "time": "2025-02-06 09:20:02",
+            "path": "/promo",
+            "css": ".promo-banner",
+            "text": "Deal of the Day",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:20:07",
+            "path": "/settings",
+            "css": ".settings-header",
+            "text": "Settings",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:20:13",
+            "path": "/settings",
+            "css": "select.language",
+            "text": "Language",
+            "value": "Italian"
+          },
+          {
+            "time": "2025-02-06 09:20:18",
+            "path": "/",
+            "css": ".nav-logo",
+            "text": "Logo",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:20:23",
+            "path": "/",
+            "css": "#search-bar",
+            "text": "Search",
+            "value": "camera"
+          },
+          {
+            "time": "2025-02-06 09:20:29",
+            "path": "/products",
+            "css": ".product-card",
+            "text": "DSLR Camera",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:20:31",
+            "path": "/products/dslr-camera",
+            "css": "textarea.comment",
+            "text": "Comment",
+            "value": "Stunning clarity"
+          },
+          {
+            "time": "2025-02-06 09:20:38",
+            "path": "/products/dslr-camera",
+            "css": "button.submit",
+            "text": "Submit",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:20:42",
+            "path": "/products/dslr-camera",
+            "css": "button.add-to-cart",
+            "text": "Add to Cart",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:20:46",
+            "path": "/cart",
+            "css": "button.checkout",
+            "text": "Proceed to Checkout",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:20:53",
+            "path": "/checkout",
+            "css": "div.spinner",
+            "text": "Loading...",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:20:59",
+            "path": "/checkout",
+            "css": "button.cancel-order",
+            "text": "Cancel Order",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "session_id": "00112233-4455-6677-8899-aabbccddeeff",
+        "user_id": "0a0b0c0d-0e0f-1011-1213-141516171819",
+        "start_time": "2025-02-06 09:25:02",
+        "end_time": "2025-02-06 09:25:33",
+        "event_count": 7,
+        "pages": [
+          "/products/headphones-xyz",
+          "/cart",
+          "/checkout"
+        ],
+        "has_error": true,
+        "completed_order": false,
+        "events": [
+          {
+            "time": "2025-02-06 09:25:02",
+            "path": "/products/headphones-xyz",
+            "css": ".product-details",
+            "text": "Headphones XYZ",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:25:08",
+            "path": "/products/headphones-xyz",
+            "css": "textarea.comment",
+            "text": "Comment",
+            "value": "Sound is mediocre"
+          },
+          {
+            "time": "2025-02-06 09:25:14",
+            "path": "/products/headphones-xyz",
+            "css": "button.add-to-cart",
+            "text": "Add to Cart",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:25:18",
+            "path": "/cart",
+            "css": "button.checkout",
+            "text": "Proceed to Checkout",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:25:23",
+            "path": "/checkout",
+            "css": "div.error-message",
+            "text": "Payment declined",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:25:28",
+            "path": "/checkout",
+            "css": "button.retry",
+            "text": "Retry",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:25:33",
+            "path": "/checkout",
+            "css": "button.cancel-order",
+            "text": "Cancel Order",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "session_id": "19283746-5a5b-6c6d-7e7f-8a8b8c8d8e8f",
+        "user_id": "aa11bb22-cc33-dd44-ee55-ff6677889900",
+        "start_time": "2025-02-06 09:30:03",
+        "end_time": "2025-02-06 09:31:04",
+        "event_count": 13,
+        "pages": [
+          "/settings",
+          "/account",
+          "/login",
+          "/",
+          "/products",
+          "/products/smartwatch-s",
+          "/cart",
+          "/checkout"
+        ],
+        "has_error": false,
+        "completed_order": true,
+        "events": [
+          {
+            "time": "2025-02-06 09:30:03",
+            "path": "/settings",
+            "css": ".settings-header",
+            "text": "Settings",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:30:06",
+            "path": "/settings",
+            "css": "select.language",
+            "text": "Language",
+            "value": "German"
+          },
+          {
+            "time": "2025-02-06 09:30:14",
+            "path": "/settings",
+            "css": "div.spinner",
+            "text": "Loading...",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:30:18",
+            "path": "/account",
+            "css": "button.logout",
+            "text": "Logout",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:30:22",
+            "path": "/login",
+            "css": "input.username",
+            "text": "Username",
+            "value": "user7"
+          },
+          {
+            "time": "2025-02-06 09:30:29",
+            "path": "/login",
+            "css": "input.password",
+            "text": "Password",
+            "value": "******"
+          },
+          {
+            "time": "2025-02-06 09:30:34",
+            "path": "/login",
+            "css": "button.login",
+            "text": "Login",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:30:39",
+            "path": "/",
+            "css": ".nav-logo",
+            "text": "Logo",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:30:41",
+            "path": "/",
+            "css": "#search-bar",
+            "text": "Search",
+            "value": "smartwatch"
+          },
+          {
+            "time": "2025-02-06 09:30:48",
+            "path": "/products",
+            "css": ".product-card",
+            "text": "Smartwatch S",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:30:53",
+            "path": "/products/smartwatch-s",
+            "css": "button.add-to-cart",
+            "text": "Add to Cart",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:30:56",
+            "path": "/cart",
+            "css": "button.checkout",
+            "text": "Proceed to Checkout",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:31:04",
+            "path": "/checkout",
+            "css": "button.place-order",
+            "text": "Place Order",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "session_id": "0a1b2c3d-4e5f-6789-abcd-ef0123456789",
+        "user_id": "12345678-90ab-cdef-1234-567890abcdef",
+        "start_time": "2025-02-06 09:35:01",
+        "end_time": "2025-02-06 09:35:41",
+        "event_count": 9,
+        "pages": [
+          "/blog",
+          "/",
+          "/products",
+          "/products/smart-speaker",
+          "/cart",
+          "/checkout"
+        ],
+        "has_error": true,
+        "completed_order": false,
+        "events": [
+          {
+            "time": "2025-02-06 09:35:01",
+            "path": "/blog",
+            "css": ".blog-post",
+            "text": "Latest Gadgets",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:35:07",
+            "path": "/blog",
+            "css": "textarea.comment",
+            "text": "Comment",
+            "value": "Interesting insights"
+          },
+          {
+            "time": "2025-02-06 09:35:11",
+            "path": "/",
+            "css": ".nav-logo",
+            "text": "Logo",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:35:18",
+            "path": "/",
+            "css": "#search-bar",
+            "text": "Search",
+            "value": "smart speaker"
+          },
+          {
+            "time": "2025-02-06 09:35:22",
+            "path": "/products",
+            "css": ".product-card",
+            "text": "Smart Speaker",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:35:26",
+            "path": "/products/smart-speaker",
+            "css": "button.add-to-cart",
+            "text": "Add to Cart",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:35:31",
+            "path": "/cart",
+            "css": "button.checkout",
+            "text": "Proceed to Checkout",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:35:36",
+            "path": "/checkout",
+            "css": "div.error-message",
+            "text": "Item out of stock",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:35:41",
+            "path": "/checkout",
+            "css": "button.cancel-order",
+            "text": "Cancel Order",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "session_id": "abcdef12-3456-7890-abcd-ef1234567891",
+        "user_id": "9f2b8d7a-3c4e-5d6f-7a8b-9c0d1e2f3a4b",
+        "start_time": "2025-02-06 09:40:01",
+        "end_time": "2025-02-06 09:40:41",
+        "event_count": 9,
+        "pages": [
+          "/settings",
+          "/",
+          "/products",
+          "/products/wireless-printer",
+          "/cart",
+          "/checkout"
+        ],
+        "has_error": false,
+        "completed_order": true,
+        "events": [
+          {
+            "time": "2025-02-06 09:40:01",
+            "path": "/settings",
+            "css": ".settings-header",
+            "text": "Settings",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:40:07",
+            "path": "/settings",
+            "css": "select.language",
+            "text": "Language",
+            "value": "Portuguese"
+          },
+          {
+            "time": "2025-02-06 09:40:13",
+            "path": "/",
+            "css": ".nav-logo",
+            "text": "Logo",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:40:16",
+            "path": "/",
+            "css": "#search-bar",
+            "text": "Search",
+            "value": "printer"
+          },
+          {
+            "time": "2025-02-06 09:40:21",
+            "path": "/products",
+            "css": ".product-card",
+            "text": "Wireless Printer",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:40:27",
+            "path": "/products/wireless-printer",
+            "css": "textarea.comment",
+            "text": "Comment",
+            "value": "Easy setup"
+          },
+          {
+            "time": "2025-02-06 09:40:31",
+            "path": "/cart",
+            "css": "button.add-to-cart",
+            "text": "Add to Cart",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:40:36",
+            "path": "/cart",
+            "css": "button.checkout",
+            "text": "Proceed to Checkout",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:40:41",
+            "path": "/checkout",
+            "css": "button.place-order",
+            "text": "Place Order",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "session_id": "11223344-5566-7788-99aa-bbccddeeff01",
+        "user_id": "abcdef12-3456-7890-abcd-ef1234567891",
+        "start_time": "2025-02-06 09:45:04",
+        "end_time": "2025-02-06 09:45:42",
+        "event_count": 9,
+        "pages": [
+          "/products",
+          "/products/gaming-console",
+          "/",
+          "/cart",
+          "/checkout"
+        ],
+        "has_error": true,
+        "completed_order": false,
+        "events": [
+          {
+            "time": "2025-02-06 09:45:04",
+            "path": "/products",
+            "css": ".product-card",
+            "text": "Gaming Console",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:45:06",
+            "path": "/products/gaming-console",
+            "css": "button.add-to-cart",
+            "text": "Add to Cart",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:45:13",
+            "path": "/",
+            "css": "#search-bar",
+            "text": "Search",
+            "value": "gaming"
+          },
+          {
+            "time": "2025-02-06 09:45:17",
+            "path": "/",
+            "css": "a.promo-banner",
+            "text": "Limited Offer",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:45:21",
+            "path": "/",
+            "css": ".nav-logo",
+            "text": "Logo",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:45:27",
+            "path": "/cart",
+            "css": "button.checkout",
+            "text": "Proceed to Checkout",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:45:34",
+            "path": "/checkout",
+            "css": "div.spinner",
+            "text": "Loading...",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:45:36",
+            "path": "/checkout",
+            "css": "div.error-message",
+            "text": "Payment service unavailable",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:45:42",
+            "path": "/checkout",
+            "css": "button.retry",
+            "text": "Retry",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "session_id": "22334455-6677-8899-aabb-ccddee112233",
+        "user_id": "11223344-5566-7788-99aa-bbccddeeff00",
+        "start_time": "2025-02-06 09:50:04",
+        "end_time": "2025-02-06 09:50:07",
+        "event_count": 2,
+        "pages": [
+          "/",
+          "/account"
+        ],
+        "has_error": false,
+        "completed_order": false,
+        "events": [
+          {
+            "time": "2025-02-06 09:50:04",
+            "path": "/",
+            "css": ".nav-logo",
+            "text": "Logo",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:50:07",
+            "path": "/account",
+            "css": "button.logout",
+            "text": "Logout",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "session_id": "33445566-7788-99aa-bbcc-ddeeff223344",
+        "user_id": "3c7a9e10-2b4c-4d3f-9f2b-abcdefabcdef",
+        "start_time": "2025-02-06 09:55:04",
+        "end_time": null,
+        "event_count": 7,
+        "pages": [
+          "/help",
+          "/",
+          "/products/smart-tv-55",
+          "/cart",
+          "/products"
+        ],
+        "has_error": false,
+        "completed_order": false,
+        "events": [
+          {
+            "time": "2025-02-06 09:55:04",
+            "path": "/help",
+            "css": "div.help-popup",
+            "text": "Need Help?",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:55:07",
+            "path": "/",
+            "css": ".nav-logo",
+            "text": "Logo",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:55:14",
+            "path": "/",
+            "css": "#search-bar",
+            "text": "Search",
+            "value": "smart TV"
+          },
+          {
+            "time": "2025-02-06 09:55:24",
+            "path": "/products/smart-tv-55",
+            "css": "textarea.comment",
+            "text": "Comment",
+            "value": "Picture quality is blurry"
+          },
+          {
+            "time": "2025-02-06 09:55:27",
+            "path": "/products/smart-tv-55",
+            "css": "button.add-to-cart",
+            "text": "Add to Cart",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 09:55:33",
+            "path": "/cart",
+            "css": "button.checkout",
+            "text": "Proceed to Checkout",
+            "value": ""
+          },
+          {
+            "time": null,
+            "path": "/products",
+            "css": ".product-card",
+            "text": "Smart TV 55\\\",\",2025-02-06 09:55:15\"",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "session_id": "44556677-8899-aabb-ccdd-eeff33445566",
+        "user_id": "d4e5f6a7-b8c9-0d1e-2f3a-456789abcdef",
+        "start_time": "2025-02-06 10:00:03",
+        "end_time": "2025-02-06 10:00:42",
+        "event_count": 9,
+        "pages": [
+          "/blog",
+          "/",
+          "/products",
+          "/products/smart-watch",
+          "/cart",
+          "/checkout"
+        ],
+        "has_error": false,
+        "completed_order": true,
+        "events": [
+          {
+            "time": "2025-02-06 10:00:03",
+            "path": "/blog",
+            "css": ".blog-post",
+            "text": "Gadget Review",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:00:09",
+            "path": "/blog",
+            "css": "textarea.comment",
+            "text": "Comment",
+            "value": "Very detailed review"
+          },
+          {
+            "time": "2025-02-06 10:00:11",
+            "path": "/blog",
+            "css": "button.submit",
+            "text": "Submit",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:00:19",
+            "path": "/",
+            "css": ".nav-logo",
+            "text": "Logo",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:00:22",
+            "path": "/",
+            "css": "#search-bar",
+            "text": "Search",
+            "value": "smart watch"
+          },
+          {
+            "time": "2025-02-06 10:00:27",
+            "path": "/products",
+            "css": ".product-card",
+            "text": "Smart Watch",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:00:33",
+            "path": "/products/smart-watch",
+            "css": "button.add-to-cart",
+            "text": "Add to Cart",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:00:37",
+            "path": "/cart",
+            "css": "button.checkout",
+            "text": "Proceed to Checkout",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:00:42",
+            "path": "/checkout",
+            "css": "button.place-order",
+            "text": "Place Order",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "session_id": "55667788-99aa-bbcc-ddee-ff4455667788",
+        "user_id": "fedcba98-7654-3210-1234-56789abcdef0",
+        "start_time": "2025-02-06 10:05:02",
+        "end_time": "2025-02-06 10:05:42",
+        "event_count": 9,
+        "pages": [
+          "/faq",
+          "/",
+          "/products",
+          "/products/wireless-printer",
+          "/cart",
+          "/checkout"
+        ],
+        "has_error": true,
+        "completed_order": false,
+        "events": [
+          {
+            "time": "2025-02-06 10:05:02",
+            "path": "/faq",
+            "css": ".faq-header",
+            "text": "FAQ",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:05:06",
+            "path": "/faq",
+            "css": "a.question",
+            "text": "Return policy?",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:05:14",
+            "path": "/faq",
+            "css": "div.error-message",
+            "text": "No answer available",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:05:17",
+            "path": "/",
+            "css": "#search-bar",
+            "text": "Search",
+            "value": "printer"
+          },
+          {
+            "time": "2025-02-06 10:05:22",
+            "path": "/products",
+            "css": ".product-card",
+            "text": "Wireless Printer",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:05:27",
+            "path": "/products/wireless-printer",
+            "css": "textarea.comment",
+            "text": "Comment",
+            "value": "Setup is confusing"
+          },
+          {
+            "time": "2025-02-06 10:05:32",
+            "path": "/products/wireless-printer",
+            "css": "button.submit",
+            "text": "Submit",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:05:36",
+            "path": "/cart",
+            "css": "button.checkout",
+            "text": "Proceed to Checkout",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:05:42",
+            "path": "/checkout",
+            "css": "button.cancel-order",
+            "text": "Cancel Order",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "session_id": "66778899-aabb-ccdd-eeff-5566778899aa",
+        "user_id": "0a0b0c0d-0e0f-1011-1213-141516171819",
+        "start_time": "2025-02-06 10:10:02",
+        "end_time": "2025-02-06 10:10:22",
+        "event_count": 5,
+        "pages": [
+          "/",
+          "/products",
+          "/products/gaming-mouse",
+          "/cart",
+          "/account"
+        ],
+        "has_error": false,
+        "completed_order": false,
+        "events": [
+          {
+            "time": "2025-02-06 10:10:02",
+            "path": "/",
+            "css": "#search-bar",
+            "text": "Search",
+            "value": "mouse"
+          },
+          {
+            "time": "2025-02-06 10:10:08",
+            "path": "/products",
+            "css": ".product-card",
+            "text": "Gaming Mouse",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:10:11",
+            "path": "/products/gaming-mouse",
+            "css": "button.add-to-cart",
+            "text": "Add to Cart",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:10:16",
+            "path": "/cart",
+            "css": "button.checkout",
+            "text": "Proceed to Checkout",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:10:22",
+            "path": "/account",
+            "css": "button.logout",
+            "text": "Logout",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "session_id": "778899aa-bbcc-ddee-ff11-66778899aabb",
+        "user_id": "aa11bb22-cc33-dd44-ee55-ff6677889900",
+        "start_time": "2025-02-06 10:15:04",
+        "end_time": "2025-02-06 10:15:41",
+        "event_count": 9,
+        "pages": [
+          "/settings",
+          "/",
+          "/products",
+          "/products/mechanical-keyboard",
+          "/cart",
+          "/checkout"
+        ],
+        "has_error": false,
+        "completed_order": true,
+        "events": [
+          {
+            "time": "2025-02-06 10:15:04",
+            "path": "/settings",
+            "css": ".settings-header",
+            "text": "Settings",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:15:06",
+            "path": "/settings",
+            "css": "select.language",
+            "text": "Language",
+            "value": "Russian"
+          },
+          {
+            "time": "2025-02-06 10:15:14",
+            "path": "/",
+            "css": ".nav-logo",
+            "text": "Logo",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:15:17",
+            "path": "/",
+            "css": "#search-bar",
+            "text": "Search",
+            "value": "keyboard"
+          },
+          {
+            "time": "2025-02-06 10:15:24",
+            "path": "/products",
+            "css": ".product-card",
+            "text": "Mechanical Keyboard",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:15:27",
+            "path": "/products/mechanical-keyboard",
+            "css": "textarea.comment",
+            "text": "Comment",
+            "value": "Keys feel sticky"
+          },
+          {
+            "time": "2025-02-06 10:15:34",
+            "path": "/products/mechanical-keyboard",
+            "css": "button.add-to-cart",
+            "text": "Add to Cart",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:15:39",
+            "path": "/cart",
+            "css": "button.checkout",
+            "text": "Proceed to Checkout",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:15:41",
+            "path": "/checkout",
+            "css": "button.place-order",
+            "text": "Place Order",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "session_id": "8899aabb-ccdd-eeff-1122-778899aabbcc",
+        "user_id": "12345678-90ab-cdef-1234-567890abcdef",
+        "start_time": "2025-02-06 10:20:04",
+        "end_time": "2025-02-06 10:20:38",
+        "event_count": 8,
+        "pages": [
+          "/products",
+          "/products/old-model-phone",
+          "/products",
+          "/products/new-model-phone",
+          "/cart",
+          "/checkout"
+        ],
+        "has_error": true,
+        "completed_order": false,
+        "events": [
+          {
+            "time": "2025-02-06 10:20:04",
+            "path": "/products",
+            "css": ".product-card",
+            "text": "Old Model Phone",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:20:08",
+            "path": "/products/old-model-phone",
+            "css": "button.add-to-cart",
+            "text": "Add to Cart",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:20:12",
+            "path": "/products",
+            "css": "#search-bar",
+            "text": "Search",
+            "value": "new model phone"
+          },
+          {
+            "time": "2025-02-06 10:20:17",
+            "path": "/products",
+            "css": ".product-card",
+            "text": "New Model Phone",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:20:23",
+            "path": "/products/new-model-phone",
+            "css": "button.add-to-cart",
+            "text": "Add to Cart",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:20:29",
+            "path": "/cart",
+            "css": "button.checkout",
+            "text": "Proceed to Checkout",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:20:32",
+            "path": "/checkout",
+            "css": "div.error-message",
+            "text": "Unrecognized payment method",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:20:38",
+            "path": "/checkout",
+            "css": "button.cancel-order",
+            "text": "Cancel Order",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "session_id": "99aabbcc-ddee-ff11-2233-8899aabbccdd",
+        "user_id": "9f2b8d7a-3c4e-5d6f-7a8b-9c0d1e2f3a4b",
+        "start_time": "2025-02-06 10:25:03",
+        "end_time": "2025-02-06 10:25:37",
+        "event_count": 8,
+        "pages": [
+          "/checkout",
+          "/",
+          "/products",
+          "/products/wi-fi-router",
+          "/cart",
+          "/checkout"
+        ],
+        "has_error": true,
+        "completed_order": true,
+        "events": [
+          {
+            "time": "2025-02-06 10:25:03",
+            "path": "/checkout",
+            "css": "#shipping-address",
+            "text": "Address",
+            "value": "999 Nowhere Ln"
+          },
+          {
+            "time": "2025-02-06 10:25:09",
+            "path": "/checkout",
+            "css": "div.error-message",
+            "text": "Cart is empty",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:25:14",
+            "path": "/",
+            "css": ".nav-logo",
+            "text": "Logo",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:25:16",
+            "path": "/",
+            "css": "#search-bar",
+            "text": "Search",
+            "value": "router"
+          },
+          {
+            "time": "2025-02-06 10:25:21",
+            "path": "/products",
+            "css": ".product-card",
+            "text": "WiFi Router",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:25:29",
+            "path": "/products/wi-fi-router",
+            "css": "button.add-to-cart",
+            "text": "Add to Cart",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:25:33",
+            "path": "/cart",
+            "css": "button.checkout",
+            "text": "Proceed to Checkout",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:25:37",
+            "path": "/checkout",
+            "css": "button.place-order",
+            "text": "Place Order",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "session_id": "aabbccdd-eeff-1122-3344-bbccddeeff00",
+        "user_id": "11223344-5566-7788-99aa-bbccddeeff00",
+        "start_time": "2025-02-06 10:30:01",
+        "end_time": "2025-02-06 10:30:24",
+        "event_count": 5,
+        "pages": [
+          "/promo",
+          "/products",
+          "/products/bluetooth-speaker",
+          "/cart",
+          "/account"
+        ],
+        "has_error": false,
+        "completed_order": false,
+        "events": [
+          {
+            "time": "2025-02-06 10:30:01",
+            "path": "/promo",
+            "css": ".promo-banner",
+            "text": "Flash Deal",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:30:08",
+            "path": "/products",
+            "css": ".product-card",
+            "text": "Bluetooth Speaker",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:30:11",
+            "path": "/products/bluetooth-speaker",
+            "css": "textarea.comment",
+            "text": "Comment",
+            "value": "Sound is booming"
+          },
+          {
+            "time": "2025-02-06 10:30:19",
+            "path": "/cart",
+            "css": "button.add-to-cart",
+            "text": "Add to Cart",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:30:24",
+            "path": "/account",
+            "css": "button.logout",
+            "text": "Logout",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "session_id": "bbccddee-ff11-2233-4455-ccddee112233",
+        "user_id": "d4e5f6a7-b8c9-0d1e-2f3a-456789abcdef",
+        "start_time": "2025-02-06 10:35:03",
+        "end_time": "2025-02-06 10:35:38",
+        "event_count": 8,
+        "pages": [
+          "/",
+          "/products",
+          "/products/wireless-printer",
+          "/cart",
+          "/checkout"
+        ],
+        "has_error": false,
+        "completed_order": true,
+        "events": [
+          {
+            "time": "2025-02-06 10:35:03",
+            "path": "/",
+            "css": ".nav-logo",
+            "text": "Logo",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:35:08",
+            "path": "/",
+            "css": "#search-bar",
+            "text": "Search",
+            "value": "printer"
+          },
+          {
+            "time": "2025-02-06 10:35:11",
+            "path": "/products",
+            "css": ".product-card",
+            "text": "Wireless Printer",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:35:19",
+            "path": "/products/wireless-printer",
+            "css": "textarea.comment",
+            "text": "Comment",
+            "value": "Setup is easy"
+          },
+          {
+            "time": "2025-02-06 10:35:22",
+            "path": "/products/wireless-printer",
+            "css": "button.submit",
+            "text": "Submit",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:35:28",
+            "path": "/products/wireless-printer",
+            "css": "button.add-to-cart",
+            "text": "Add to Cart",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:35:32",
+            "path": "/cart",
+            "css": "button.checkout",
+            "text": "Proceed to Checkout",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:35:38",
+            "path": "/checkout",
+            "css": "button.place-order",
+            "text": "Place Order",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "session_id": "ccddee11-2233-4455-6677-8899aabbccdd",
+        "user_id": "9f2b8d7a-3c4e-5d6f-7a8b-9c0d1e2f3a4b",
+        "start_time": "2025-02-06 10:40:01",
+        "end_time": "2025-02-06 10:40:34",
+        "event_count": 7,
+        "pages": [
+          "/",
+          "/products",
+          "/products/led-desk-lamp",
+          "/cart",
+          "/checkout"
+        ],
+        "has_error": false,
+        "completed_order": false,
+        "events": [
+          {
+            "time": "2025-02-06 10:40:01",
+            "path": "/",
+            "css": "a.promo-banner",
+            "text": "Subscribe Now",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:40:06",
+            "path": "/",
+            "css": ".nav-logo",
+            "text": "Logo",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:40:14",
+            "path": "/",
+            "css": "#search-bar",
+            "text": "Search",
+            "value": "desk lamp"
+          },
+          {
+            "time": "2025-02-06 10:40:16",
+            "path": "/products",
+            "css": ".product-card",
+            "text": "LED Desk Lamp",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:40:21",
+            "path": "/products/led-desk-lamp",
+            "css": "button.add-to-cart",
+            "text": "Add to Cart",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:40:26",
+            "path": "/cart",
+            "css": "button.checkout",
+            "text": "Proceed to Checkout",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:40:34",
+            "path": "/checkout",
+            "css": "button.cancel-order",
+            "text": "Cancel Order",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "session_id": "ddeeff22-3344-5566-7788-99aabbccddee",
+        "user_id": "3c7a9e10-2b4c-4d3f-9f2b-abcdefabcdef",
+        "start_time": "2025-02-06 10:45:02",
+        "end_time": "2025-02-06 10:45:32",
+        "event_count": 7,
+        "pages": [
+          "/help",
+          "/",
+          "/products",
+          "/products/wi-fi-router",
+          "/cart",
+          "/account"
+        ],
+        "has_error": false,
+        "completed_order": false,
+        "events": [
+          {
+            "time": "2025-02-06 10:45:02",
+            "path": "/help",
+            "css": "div.help-popup",
+            "text": "Need Assistance?",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:45:06",
+            "path": "/",
+            "css": ".nav-logo",
+            "text": "Logo",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:45:11",
+            "path": "/",
+            "css": "#search-bar",
+            "text": "Search",
+            "value": "router"
+          },
+          {
+            "time": "2025-02-06 10:45:16",
+            "path": "/products",
+            "css": ".product-card",
+            "text": "WiFi Router",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:45:24",
+            "path": "/products/wi-fi-router",
+            "css": "button.add-to-cart",
+            "text": "Add to Cart",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:45:26",
+            "path": "/cart",
+            "css": "button.checkout",
+            "text": "Proceed to Checkout",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:45:32",
+            "path": "/account",
+            "css": "button.logout",
+            "text": "Logout",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "session_id": "eeff1122-4455-6677-8899-aabbccddeeff",
+        "user_id": "d4e5f6a7-b8c9-0d1e-2f3a-456789abcdef",
+        "start_time": "2025-02-06 10:50:03",
+        "end_time": "2025-02-06 10:50:43",
+        "event_count": 9,
+        "pages": [
+          "/blog",
+          "/",
+          "/products",
+          "/products/phone-case",
+          "/cart",
+          "/checkout"
+        ],
+        "has_error": false,
+        "completed_order": true,
+        "events": [
+          {
+            "time": "2025-02-06 10:50:03",
+            "path": "/blog",
+            "css": ".blog-post",
+            "text": "Review: New Phone",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:50:08",
+            "path": "/blog",
+            "css": "textarea.comment",
+            "text": "Comment",
+            "value": "Not impressed"
+          },
+          {
+            "time": "2025-02-06 10:50:14",
+            "path": "/blog",
+            "css": "button.submit",
+            "text": "Submit",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:50:18",
+            "path": "/",
+            "css": ".nav-logo",
+            "text": "Logo",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:50:21",
+            "path": "/",
+            "css": "#search-bar",
+            "text": "Search",
+            "value": "phone case"
+          },
+          {
+            "time": "2025-02-06 10:50:28",
+            "path": "/products",
+            "css": ".product-card",
+            "text": "Phone Case",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:50:33",
+            "path": "/products/phone-case",
+            "css": "button.add-to-cart",
+            "text": "Add to Cart",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:50:38",
+            "path": "/cart",
+            "css": "button.checkout",
+            "text": "Proceed to Checkout",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:50:43",
+            "path": "/checkout",
+            "css": "button.place-order",
+            "text": "Place Order",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "session_id": "ff112233-5566-7788-99aa-bbccddeeff12",
+        "user_id": "fedcba98-7654-3210-1234-56789abcdef0",
+        "start_time": "2025-02-06 10:55:01",
+        "end_time": "2025-02-06 10:55:33",
+        "event_count": 7,
+        "pages": [
+          "/",
+          "/products",
+          "/products/gaming-laptop",
+          "/cart",
+          "/checkout"
+        ],
+        "has_error": true,
+        "completed_order": false,
+        "events": [
+          {
+            "time": "2025-02-06 10:55:01",
+            "path": "/",
+            "css": ".nav-logo",
+            "text": "Logo",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:55:09",
+            "path": "/",
+            "css": "#search-bar",
+            "text": "Search",
+            "value": "laptop"
+          },
+          {
+            "time": "2025-02-06 10:55:13",
+            "path": "/products",
+            "css": ".product-card",
+            "text": "Gaming Laptop",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:55:18",
+            "path": "/products/gaming-laptop",
+            "css": "button.add-to-cart",
+            "text": "Add to Cart",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:55:23",
+            "path": "/cart",
+            "css": "button.checkout",
+            "text": "Proceed to Checkout",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:55:28",
+            "path": "/checkout",
+            "css": "div.error-message",
+            "text": "Payment declined",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 10:55:33",
+            "path": "/checkout",
+            "css": "button.cancel-order",
+            "text": "Cancel Order",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "session_id": "01122334-5678-90ab-cdef-1234567890ab",
+        "user_id": "0a0b0c0d-0e0f-1011-1213-141516171819",
+        "start_time": "2025-02-06 11:00:03",
+        "end_time": "2025-02-06 11:00:33",
+        "event_count": 7,
+        "pages": [
+          "/random",
+          "/products",
+          "/products/gaming-headset",
+          "/cart",
+          "/checkout"
+        ],
+        "has_error": false,
+        "completed_order": true,
+        "events": [
+          {
+            "time": "2025-02-06 11:00:03",
+            "path": "/random",
+            "css": ".random-section",
+            "text": "Random Content",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 11:00:07",
+            "path": "/random",
+            "css": "#search-bar",
+            "text": "Search",
+            "value": "headset"
+          },
+          {
+            "time": "2025-02-06 11:00:14",
+            "path": "/products",
+            "css": ".product-card",
+            "text": "Gaming Headset",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 11:00:16",
+            "path": "/products/gaming-headset",
+            "css": "textarea.comment",
+            "text": "Comment",
+            "value": "Bass is deep"
+          },
+          {
+            "time": "2025-02-06 11:00:23",
+            "path": "/products/gaming-headset",
+            "css": "button.add-to-cart",
+            "text": "Add to Cart",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 11:00:26",
+            "path": "/cart",
+            "css": "button.checkout",
+            "text": "Proceed to Checkout",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 11:00:33",
+            "path": "/checkout",
+            "css": "button.place-order",
+            "text": "Place Order",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "session_id": "12233445-6789-0abc-def1-234567890abc",
+        "user_id": "aa11bb22-cc33-dd44-ee55-ff6677889900",
+        "start_time": "2025-02-06 11:05:04",
+        "end_time": "2025-02-06 11:05:37",
+        "event_count": 8,
+        "pages": [
+          "/settings",
+          "/",
+          "/products",
+          "/products/4k-monitor",
+          "/cart"
+        ],
+        "has_error": true,
+        "completed_order": false,
+        "events": [
+          {
+            "time": "2025-02-06 11:05:04",
+            "path": "/settings",
+            "css": ".settings-header",
+            "text": "Settings",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 11:05:07",
+            "path": "/settings",
+            "css": "select.language",
+            "text": "Language",
+            "value": "Russian"
+          },
+          {
+            "time": "2025-02-06 11:05:11",
+            "path": "/settings",
+            "css": "div.error-message",
+            "text": "Unable to update preferences",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 11:05:17",
+            "path": "/",
+            "css": ".nav-logo",
+            "text": "Logo",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 11:05:22",
+            "path": "/",
+            "css": "#search-bar",
+            "text": "Search",
+            "value": "monitor"
+          },
+          {
+            "time": "2025-02-06 11:05:28",
+            "path": "/products",
+            "css": ".product-card",
+            "text": "4K Monitor",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 11:05:34",
+            "path": "/products/4k-monitor",
+            "css": "button.add-to-cart",
+            "text": "Add to Cart",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 11:05:37",
+            "path": "/cart",
+            "css": "button.checkout",
+            "text": "Proceed to Checkout",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "session_id": "23344556-7890-abcd-ef12-34567890abcd",
+        "user_id": "12345678-90ab-cdef-1234-567890abcdef",
+        "start_time": "2025-02-06 11:10:01",
+        "end_time": "2025-02-06 11:10:27",
+        "event_count": 6,
+        "pages": [
+          "/random"
+        ],
+        "has_error": true,
+        "completed_order": false,
+        "events": [
+          {
+            "time": "2025-02-06 11:10:01",
+            "path": "/random",
+            "css": "#search-bar",
+            "text": "Search",
+            "value": "???"
+          },
+          {
+            "time": "2025-02-06 11:10:07",
+            "path": "/random",
+            "css": "div.error-message",
+            "text": "No results",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 11:10:12",
+            "path": "/random",
+            "css": "a.back-link",
+            "text": "Back",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 11:10:16",
+            "path": "/random",
+            "css": "#search-bar",
+            "text": "Search",
+            "value": "confused"
+          },
+          {
+            "time": "2025-02-06 11:10:23",
+            "path": "/random",
+            "css": "div.help-popup",
+            "text": "Help",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 11:10:27",
+            "path": "/random",
+            "css": "a.close",
+            "text": "Close",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "session_id": "34455667-890a-bcde-f123-4567890abcde",
+        "user_id": "9f2b8d7a-3c4e-5d6f-7a8b-9c0d1e2f3a4b",
+        "start_time": "2025-02-06 11:15:01",
+        "end_time": "2025-02-06 11:15:36",
+        "event_count": 8,
+        "pages": [
+          "/",
+          "/products",
+          "/products/portable-speaker",
+          "/cart",
+          "/checkout"
+        ],
+        "has_error": false,
+        "completed_order": true,
+        "events": [
+          {
+            "time": "2025-02-06 11:15:01",
+            "path": "/",
+            "css": ".nav-logo",
+            "text": "Logo",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 11:15:08",
+            "path": "/",
+            "css": "#search-bar",
+            "text": "Search",
+            "value": "speaker"
+          },
+          {
+            "time": "2025-02-06 11:15:14",
+            "path": "/products",
+            "css": ".product-card",
+            "text": "Portable Speaker",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 11:15:16",
+            "path": "/products/portable-speaker",
+            "css": "textarea.comment",
+            "text": "Comment",
+            "value": "Great bass"
+          },
+          {
+            "time": "2025-02-06 11:15:23",
+            "path": "/products/portable-speaker",
+            "css": "button.submit",
+            "text": "Submit",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 11:15:26",
+            "path": "/products/portable-speaker",
+            "css": "button.add-to-cart",
+            "text": "Add to Cart",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 11:15:32",
+            "path": "/cart",
+            "css": "button.checkout",
+            "text": "Proceed to Checkout",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 11:15:36",
+            "path": "/checkout",
+            "css": "button.place-order",
+            "text": "Place Order",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "session_id": "45566778-90ab-cdef-1234-567890abcdef",
+        "user_id": "abcdef12-3456-7890-abcd-ef1234567890",
+        "start_time": "2025-02-06 11:20:01",
+        "end_time": "2025-02-06 11:20:24",
+        "event_count": 5,
+        "pages": [
+          "/settings",
+          "/blog",
+          "/random"
+        ],
+        "has_error": false,
+        "completed_order": false,
+        "events": [
+          {
+            "time": "2025-02-06 11:20:01",
+            "path": "/settings",
+            "css": ".settings-header",
+            "text": "Settings",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 11:20:08",
+            "path": "/settings",
+            "css": "select.language",
+            "text": "Language",
+            "value": "Japanese"
+          },
+          {
+            "time": "2025-02-06 11:20:12",
+            "path": "/blog",
+            "css": ".blog-post",
+            "text": "Tech Innovations",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 11:20:17",
+            "path": "/blog",
+            "css": "textarea.comment",
+            "text": "Comment",
+            "value": "Intriguing!"
+          },
+          {
+            "time": "2025-02-06 11:20:24",
+            "path": "/random",
+            "css": "a.back-link",
+            "text": "Back",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "session_id": "56677889-0abc-def1-2345-67890abcdef0",
+        "user_id": "11223344-5566-7788-99aa-bbccddeeff00",
+        "start_time": "2025-02-06 11:25:01",
+        "end_time": "2025-02-06 11:25:39",
+        "event_count": 8,
+        "pages": [
+          "/",
+          "/products",
+          "/products/wi-fi-router",
+          "/cart",
+          "/checkout"
+        ],
+        "has_error": true,
+        "completed_order": true,
+        "events": [
+          {
+            "time": "2025-02-06 11:25:01",
+            "path": "/",
+            "css": ".nav-logo",
+            "text": "Logo",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 11:25:08",
+            "path": "/",
+            "css": "#search-bar",
+            "text": "Search",
+            "value": "router"
+          },
+          {
+            "time": "2025-02-06 11:25:14",
+            "path": "/products",
+            "css": ".product-card",
+            "text": "WiFi Router",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 11:25:18",
+            "path": "/products/wi-fi-router",
+            "css": "button.add-to-cart",
+            "text": "Add to Cart",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 11:25:24",
+            "path": "/cart",
+            "css": "button.checkout",
+            "text": "Proceed to Checkout",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 11:25:29",
+            "path": "/checkout",
+            "css": "div.error-message",
+            "text": "Payment service error",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 11:25:32",
+            "path": "/checkout",
+            "css": "button.retry",
+            "text": "Retry",
+            "value": ""
+          },
+          {
+            "time": "2025-02-06 11:25:39",
+            "path": "/checkout",
+            "css": "button.place-order",
+            "text": "Place Order",
+            "value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "issues": [
+    {
+      "id": "checkout_error_abandonment",
+      "severity": "critical",
+      "title": "Checkout errors causing order abandonment",
+      "description": "5 session(s) hit an error on /checkout and never completed their order. Users either cancelled or dropped silently.",
+      "affected_sessions": [
+        "00112233-4455-6677-8899-aabbccddeeff",
+        "0a1b2c3d-4e5f-6789-abcd-ef0123456789",
+        "11223344-5566-7788-99aa-bbccddeeff01",
+        "8899aabb-ccdd-eeff-1122-778899aabbcc",
+        "ff112233-5566-7788-99aa-bbccddeeff12"
+      ],
+      "recommendation": "Investigate what triggers div.error-message at checkout. likely a payment validation or address validation failure. Add clearer error messages and inline field validation."
+    },
+    {
+      "id": "direct_checkout_entry",
+      "severity": "medium",
+      "title": "Sessions landing directly on /checkout without browsing",
+      "description": "2 session(s) started at /checkout - likely broken bookmarks, email links, or redirects. Both hit an error immediately.",
+      "affected_sessions": [
+        "0f1e2d3c-4b5a-6978-8f7e-6d5c4b3a2910",
+        "99aabbcc-ddee-ff11-2233-8899aabbccdd"
+      ],
+      "evidence": [
+        {
+          "session": "0f1e2d3c-4b5a-6978-8f7e-6d5c4b3a2910",
+          "first_css": "#shipping-address",
+          "address_attempted": "123 Fake St"
+        },
+        {
+          "session": "99aabbcc-ddee-ff11-2233-8899aabbccdd",
+          "first_css": "#shipping-address",
+          "address_attempted": "999 Nowhere Ln"
+        }
+      ],
+      "recommendation": "Guard /checkout entry: if cart is empty, redirect to / with a friendly message. Audit any external links pointing to /checkout."
+    },
+    {
+      "id": "faq_broken",
+      "severity": "high",
+      "title": "FAQ answers fail to load",
+      "description": "2 session(s) clicked a FAQ question and immediately got an error message. The FAQ content is not rendering.",
+      "affected_sessions": [
+        "11223344-5566-7788-99aa-bbccddeeff00",
+        "55667788-99aa-bbcc-ddee-ff4455667788"
+      ],
+      "recommendation": "Check the FAQ answer fetch - likely a broken API call or missing content in the CMS."
+    },
+    {
+      "id": "language_switch_error",
+      "severity": "medium",
+      "title": "Language switching triggers errors on /settings",
+      "description": "1 session(s) changed language and encountered an error. Languages affected: ['Russian'].",
+      "affected_sessions": [
+        "12233445-6789-0abc-def1-234567890abc"
+      ],
+      "evidence": [
+        {
+          "session": "12233445-6789-0abc-def1-234567890abc",
+          "language": "Russian"
+        }
+      ],
+      "recommendation": "The language preference save is failing - check the settings PUT endpoint and whether all locale codes are supported."
+    },
+    {
+      "id": "random_page_confusion",
+      "severity": "medium",
+      "title": "/random page causing user confusion",
+      "description": "1 session(s) on /random showed clear confusion signals (searches for '???' and 'confused', error messages). The page purpose is unclear or broken.",
+      "affected_sessions": [
+        "23344556-7890-abcd-ef12-34567890abcd"
+      ],
+      "evidence": [
+        {
+          "session": "23344556-7890-abcd-ef12-34567890abcd",
+          "signals": [
+            {
+              "css": "#search-bar",
+              "value": "???"
+            },
+            {
+              "css": "div.error-message",
+              "value": ""
+            },
+            {
+              "css": "#search-bar",
+              "value": "confused"
+            }
+          ]
+        }
+      ],
+      "recommendation": "Either clarify the purpose of /random with better UX copy, or redirect it to a valid page if it's a dead route."
+    }
+  ],
+  "behaviors": [
+    {
+      "id": "negative_comment_then_purchase",
+      "title": "Users buying despite leaving negative product feedback",
+      "description": "2 session(s) left a negative comment on a product page yet completed their purchase. These comments are live friction signals.",
+      "evidence": [
+        {
+          "session": "778899aa",
+          "product": "mechanical-keyboard",
+          "comment": "Keys feel sticky"
+        },
+        {
+          "session": "eeff1122",
+          "product": "/blog",
+          "comment": "Not impressed"
+        }
+      ],
+      "insight": "The textarea.comment on product pages is capturing real-time sentiment. Consider surfacing these as a CS alert or feeding them into product reviews."
+    },
+    {
+      "id": "cart_then_logout",
+      "title": "Items added to cart but session ends with logout",
+      "description": "3 session(s) added items to cart but logged out without purchasing. Potential cart abandonment worth following up via email.",
+      "affected_sessions": [
+        "66778899",
+        "aabbccdd",
+        "ddeeff22"
+      ],
+      "insight": "If cart state persists after logout, a cart recovery email flow could convert these sessions."
+    },
+    {
+      "id": "multilingual_user_conversion",
+      "title": "International users: higher engagement but language friction",
+      "description": "5 user(s) changed their language during the session. Their checkout conversion rate: 46.2% vs 35.3% for non-switchers.",
+      "insight": "Language-switching users are highly engaged (they invest time in setup) but face technical friction on /settings. Fixing the language save bug could directly improve international conversion."
+    },
+    {
+      "id": "random_as_search_entry",
+      "title": "/random page used as an alternative search entry point",
+      "description": "1 session(s) used the search bar on /random to find products: ['headset'].",
+      "evidence": [
+        {
+          "session": "01122334",
+          "search_term": "headset"
+        }
+      ],
+      "insight": "Some users discover /random and use it to navigate. If it has a functional search bar, consider making it a proper discovery/exploration page rather than leaving it undefined."
+    },
+    {
+      "id": "comment_without_purchase",
+      "title": "Product comments left by non-buyers",
+      "description": "9 comment(s) left on product pages by users who never completed a purchase. These reviews mix with buyer feedback.",
+      "evidence": [
+        {
+          "session": "a1234567",
+          "product": "/blog",
+          "comment": "Great article!"
+        },
+        {
+          "session": "11223344",
+          "product": "tablet-z",
+          "comment": "Looks promising"
+        },
+        {
+          "session": "abcdef12",
+          "product": "dslr-camera",
+          "comment": "Stunning clarity"
+        },
+        {
+          "session": "00112233",
+          "product": "headphones-xyz",
+          "comment": "Sound is mediocre"
+        },
+        {
+          "session": "0a1b2c3d",
+          "product": "/blog",
+          "comment": "Interesting insights"
+        },
+        {
+          "session": "33445566",
+          "product": "smart-tv-55",
+          "comment": "Picture quality is blurry"
+        },
+        {
+          "session": "55667788",
+          "product": "wireless-printer",
+          "comment": "Setup is confusing"
+        },
+        {
+          "session": "aabbccdd",
+          "product": "bluetooth-speaker",
+          "comment": "Sound is booming"
+        },
+        {
+          "session": "45566778",
+          "product": "/blog",
+          "comment": "Intriguing!"
+        }
+      ],
+      "insight": "Non-buyer comments are displayed alongside verified purchase reviews, weakening social proof. Consider restricting textarea.comment to verified buyers, or adding a 'verified purchase' badge to differentiate."
+    }
+  ]
+}

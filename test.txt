@@ -1,0 +1,48 @@
+# Tandem - Full Stack Engineer - Technical Test
+
+# Context
+
+We've captured user interaction data from an e-commerce website over a busy morning. The data is in a JSONL file where each line represents a single user action - clicks, form inputs, navigation, etc. Think of it as a detailed activity log showing how real users interact with the site.
+
+Each event contains:
+
+- `uuid`: Unique identifier for the event
+- `user_id`: User identifier
+- `session_id`: Session identifier
+- `path`: Page URL path
+- `css`: CSS selector of the element interacted with
+- `text`: Text content of the element
+- `value`: Input value (if applicable)
+- `event_time`: Timestamp of the interaction
+
+File: https://s3.eu-central-1.amazonaws.com/public.prod.usetandem.ai/sessions.json
+
+# Your Task
+
+Dive into this data and help us understand what's really happening on our site. We need insights about how users navigate, what problems they encounter, and what patterns emerge from their behavior.
+
+# Requirements
+
+- Identify the most common user journeys through the site (User goes from there to there to there…)
+- Detect problematic patterns
+- Surface any interesting or unexpected behaviors you discover
+- Present your findings in a way that would be useful for a product team
+
+# Guidelines
+
+- **Time limit**: 3 hours maximum. This constraint is intentional - we want to see how you prioritize and what you consider most important when time is limited. It's absolutely fine if you don't implement everything you'd like to; we're more interested in your thinking process than a perfect solution.
+- **Technology**: Use whatever stack you're comfortable with. This is your chance to show us how you work best.
+- **Documentation**: In your README, explain:
+    - How to run your solution
+    - Your technical choices and why you made them
+    - Your product decisions - what did you focus on and why?
+    - Key insights you discovered
+    - What you would do differently with more time
+
+# Submission
+
+Please provide:
+
+- Your source code
+- README with setup instructions and your analysis approach
+- Your findings (whether as an exported report, a web interface, or any other format you choose)

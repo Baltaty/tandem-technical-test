@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+:root {
+  --bg:        #ffffff;
+  --bg3:       #f8f9fa;
+  --border:    #e5e7eb;
+  --border2:   #d1d5db;
+  --text:      #111111;
+  --muted:     #6b7280;
+  --green:     #00E87A;
+  --yellow:    #f59e0b;
+  --red:       #ef4444;
+  --orange:    #f97316;
+}
+
+@layer base {
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { font-size: 14px; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font-host-grotesk), sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-host-grotesk), sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+
+  ::-webkit-scrollbar { width: 4px; height: 4px; }
+  ::-webkit-scrollbar-track { background: var(--bg3); }
+  ::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 2px; }
+}
+
+@layer utilities {
+  .row-hover { transition: background 0.15s; }
+  .row-hover:hover { background: var(--bg3); }
+  .row-hover-indent:hover { background: rgba(0, 0, 0, 0.04); }
+}
